@@ -173,32 +173,3 @@ job_name|arrival_time|burst_time|priority
 ```
 
 Lower number means higher priority.
-
-## Files To Push To GitHub
-
-Push these source and config files:
-
-- `README.md`
-- `Makefile`
-- `CMakeLists.txt`
-- `main.cpp`
-- `gui_main.cpp`
-- `service_graph.h`
-- `service_graph.cpp`
-- `scheduler.h`
-- `scheduler.cpp`
-- `services.txt`
-- `services_cycle.txt`
-- `jobs.txt`
-
-Do not push build outputs:
-
-- `hospital_simulator`
-- `hospital_simulator_gui`
-
-If you add a `.gitignore`, include at least:
-
-```gitignore
-hospital_simulator
-hospital_simulator_gui
-```
