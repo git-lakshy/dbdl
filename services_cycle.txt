@@ -1,0 +1,7 @@
+# format: service_name|critical(yes/no)|dependency1,dependency2 or -
+CoreNetwork|yes|AuthenticationService
+DNSService|yes|CoreNetwork
+DoctorPortal|no|PatientRecordsServer
+LabSystem|no|PatientRecordsServer
+AuthenticationService|yes|DNSService,DoctorPortal
+PatientRecordsServer|yes|-
