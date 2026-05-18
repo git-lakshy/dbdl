@@ -1,0 +1,8 @@
+# format: job_name|arrival_time|burst_time|priority
+NightBackup|0|12|10
+EmergencyAlertBroadcast|0|4|1
+TelemedicineVideoSession|1|6|2
+LiveSurgeryStream|2|5|1
+MRIImageUpload|3|7|3
+LabReportSync|4|4|5
+SecurityCameraArchive|5|6|6
